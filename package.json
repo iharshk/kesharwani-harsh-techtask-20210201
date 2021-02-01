@@ -1,0 +1,23 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node extract.ts"
+  },
+  "author": "Harsh Kesharwani",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "extract-zip": "^2.0.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "npm": "^6.14.11",
+    "scp": "0.0.3",
+    "superagent": "^6.1.0",
+    "unzipper": "^0.10.11"
+  }
+}
